@@ -2175,10 +2175,13 @@ by \eqref{eq:display-057}.
 
 \textbf{Supplementary Information 1: Lean 4 formalisation and
 reproducibility source code.}
-The Lean~4 supplement contains the source, pinned dependencies and
-a correspondence table for the results in Sections~\ref{sec:tree-framework}
-through~\ref{sec:statistical-consequences}. The finite refinements are proved in
-Section~\ref{sec:shape-refinement}.
+The Lean~4 supplement formalises the numbered results in
+Sections~\ref{sec:tree-framework}--\ref{sec:statistical-consequences},
+Theorem~\ref{thm:shape-bound}, and the lower inequality in
+Theorem~\ref{thm:deficit-order}. For the upper inequality, Lean proves
+the implication from the diameter and depth estimates to the bound on
+$U_n-M_n$. The construction of the prefix and suffix trees and the
+verification of these hypotheses are carried out in the manuscript.
 
 \section*{Acknowledgements}
 
@@ -2213,8 +2216,9 @@ label multiplicities represent probability masses in the proofs.
 Not applicable.
 
 \noindent\textbf{Code availability.}
-The Lean 4 formalisation and reproducibility source code are provided as
-Supplementary Information 1.
+The Lean~4 source, pinned dependencies and theorem correspondence
+are available at
+\url{https://github.com/huanglibo389/quartet-distance-ct-v14}.
 
 \noindent\textbf{Author contributions.}
 Both authors contributed to the conception, mathematical development,
